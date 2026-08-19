@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+a{
+      text-decoration: none;
+      font-size: 20px;
+}
+a:hover{
+    color: white;
+}
+img{
+    
+    justify-content:left;
+
+}
+.coainter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+button{
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+.hero-text{
+    position: absolute;
+    left: 80px;
+    bottom: 150px;
+    color: white;
+    max-width: 450px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    font-size: 20px;
+    line-height: 1.5;
+}
